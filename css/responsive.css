@@ -1,0 +1,376 @@
+@media (max-width: 575.98px) { 
+  .container{
+    padding: 0 20px;
+  }
+	.button button a {
+	padding: 8px 12px;
+	font-size: 16px;
+}
+	.navbar-expand-lg .navbar-nav .first {
+	padding-left: 33px;
+}
+#banner{
+	padding-top: 150px;
+  padding-bottom: 130px;
+}
+.banner-wrapper h1 {
+	font-size: 40px;
+	width: auto;
+	line-height: 50px;
+}
+.banner-wrapper p {
+	color: #FAFAFE;
+	font-weight: 600;
+	font-family: "Paprika", system-ui;
+	font-size: 18px;
+	width: auto;
+	line-height: 30px;
+	margin: 0 auto;
+}
+.button-two button {
+	margin-top: 15px;
+	padding: 10px 10px;
+	font-size: 15px;
+}
+.happy-wrapper h2 {
+	font-size: 35px;
+}
+.happy-wrapper p {
+	font-size: 20px;
+	padding-top: 15px;
+}
+
+.line {
+	border-right: 3px solid rgba(79, 88, 95, 0.5);
+}
+#happy {
+	padding: 105px 0;
+
+}
+#happy {
+	padding: 50px 0;
+}
+.pragraph p {
+	
+	font-size: 13px;
+	width: 250px;
+	line-height: 19px;
+}
+.circle::after {
+	left: 50%;
+	width: 15px;
+	height: 15px;
+}
+.circle {
+	width: 15px;
+	height: 15px;
+}
+.circle-flex {
+	display: flex;
+	width: 400px;
+	height: 70px;
+	padding-left: 88px;
+	gap: 20px;
+}
+.choose-wrapper {
+	display: inline;
+}
+.now {
+	margin-top: 20px;
+	text-align: center;
+}
+.now h2 {
+	font-size: 30px;
+}
+.now p {
+	font-size: 13px;
+	width: 350px;
+	line-height: 20px;
+	padding-top: 5px;
+	margin: 0 auto;
+}
+.now button {
+	margin-top: 23px;
+}
+.now button a {
+	padding: 8px 20px;
+	font-size: 13px;
+}
+#choose {
+	margin-bottom: 45px;
+}
+.do-wrapper h2 {
+	font-size: 30px;
+}
+.do-wrapper p {
+	font-size: 13px;
+	width: 265px;
+	line-height: 25px;
+	margin-top: 12px;
+}
+.do-wrapper button {
+	margin-top: 0px;
+}
+.do-wrapper button a {
+	padding: 8px 15px;
+	font-size: 14px;
+}
+.box-top-one {
+
+	margin-top: 30px;
+}
+.box-top-one h2 {
+	font-size: 14px;
+	margin-top: 15px;
+	width: 133px;
+}
+.box-top-one p {
+	font-size: 13px;
+	width: 145px;
+	line-height: 21px;
+	padding-top: 0px;
+}
+.do-wrapper button a {
+	font-size: 13px;
+}
+* {
+	z-index: 4;
+}
+.create-left h2 {
+	font-size: 25px;
+}
+.create-left p {
+	font-size: 13px;
+	width: 358px;
+	line-height: 22px;
+	padding-top: 4px;
+}
+.all-part {
+	margin-top: 0px;
+}
+.create-text-two h4 {
+	font-size: 17px;
+}
+#create {
+	padding-top: 150px;
+	padding-bottom: 0px;
+}
+.plan-wrapper h2 {
+	font-size: 20px;
+}
+.three-box h5 {
+	font-size: 20px;
+}
+.three-box h4 span {
+	font-size: 13px;
+	left: 85px;
+}
+.three-box h4 {
+	font-size: 25px;
+	margin-top: 10px;
+}
+.three-box p {
+	font-size: 13px;
+	margin-top: 12px;
+	width: 227px;
+	line-height: 20px;
+}
+.three-box {
+	padding: 21px 0px;
+	margin-top: 22px;
+
+}
+
+#slide {
+	padding: 40px 70px;
+}
+.one h3 {
+	color: #141135;
+	font-weight: 700;
+	font-family: "Open Sans", sans-serif;
+	font-size: 21px;
+	line-height: 20px;
+}
+.five-star p {
+	font-weight: 500;
+	font-size: 13px;
+	padding-top: 3px;
+	width: 268px;
+	line-height: 20px;
+	margin: 0 auto;
+}
+.carousel-inner {
+	margin-top: 85px;
+}
+.man-img {
+	position: absolute;
+	top: -95px;
+	left: 15px;
+}
+.sss i {
+	font-size: 25px;
+}
+.iii i {
+	font-size: 25px;
+}
+.iii i {
+	
+	width: 25px;
+	height: 25px;
+}
+.sss i {
+	width: 25px;
+	height: 25px;
+}
+.five-star h4 {
+	font-size: 15px;
+	padding-top: 17px;
+}
+.five-star h5 {
+	font-size: 10px;
+	padding-top: 4px;
+	padding-bottom: 20px;
+}
+.like-wrapper h2 {
+	font-size: 25px;
+	padding-left: 0px;
+}
+.new .new-one {
+	width: 244px;
+	height: 150px;
+}
+.ul-list {
+	margin-top: 20px;
+}
+.ul-list p {
+	font-size: 7px;
+}
+.ul-list ul li {
+	font-size: 7px;
+}
+.more h4 {
+	font-size: 16px;
+	line-height: 22px;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+.more .but button a {
+	padding: 8px 30px;
+	font-size: 13px;
+}
+.more .butto button a {
+	padding: 8px 30px;
+	font-size: 13px;
+}
+
+.footer-first-part p {
+	font-size: 13px;
+	width: 184px;
+	padding-top: 25px;
+}
+.footer-second-part ul li {
+	padding-top: 15px;
+	font-size: 11px;
+}
+.footer-part {
+	display: flex;
+	justify-content: none;
+}
+
+.copyright .copy a {
+	font-size: 11px;
+}
+.privacy {
+	gap: 10px;
+}
+.privacy p {
+	font-size: 11px;
+}
+.copyright {
+	margin-top: 45px;
+}
+.footer-second-part ul h6 {
+	font-size: 11px;
+}
+.butto button::after {
+	right: 0px;
+}
+.more .butto button a {
+	padding: 8px 8px;
+	font-size: 13px;
+}
+.butto button::after {
+	width: 25%;
+}
+.ul-list ul li {
+	font-size: 9px;
+}
+.ul-list p {
+	font-size: 9px;
+}
+.ul-list p {
+	padding-top: 3px;
+}
+.footer-first-part p {
+	font-size: 10px;
+}
+.plan-wrapper h2 {
+	font-size: 23px;
+}
+.three-box h4 span {
+	left: 95px;
+}
+.footer-first-part p {
+	width: 157px;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 0px;
+}
+.sss i {
+	top: 50%;
+	left: -95%;
+}
+.iii i {
+	top: 50%;
+	right: -95%;
+}
+.man-img img {
+	width: 150px;
+	height: 150px;
+}
+.man-img {
+	position: absolute;
+	top: -58px;
+	left: 110px;
+}
+.five-star i {
+	color: #FF7628;
+	padding-top: 85px;
+}
+.create-shape img{
+display: none;
+}
+.how p {
+	font-size: 13px;
+	width: 250px;
+	line-height: 23px;
+	padding-top: 5px;
+}
+.how h5 {
+	font-size: 20px;
+}
+.group-img img{
+	width: 100%;
+}
+.box-top-one p {
+	width: 223px;
+
+}
+.do-wrapper button {
+	margin-top: 15px;
+}
+.box-top-one h2 {
+	width: 223px;
+}
+}

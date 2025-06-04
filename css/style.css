@@ -1,0 +1,670 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul,li{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+.container{
+  max-width: 1366px;
+  margin: 0 auto;
+}
+
+#header{
+  background-color: rgb(221,95,86);
+  height: 50px;
+  
+}
+.header-wrapper{
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.header-wrapper p a{
+ font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 21.6px;
+color: rgb(255, 255, 255);
+
+}
+.header-wrapper .icon-header i{
+ padding-left: 15px;
+ color: white;
+}
+/* ----------header part end---------- */
+
+
+
+
+/* -------navber part start------------ */
+
+#sakib{
+  background: url('../image/pattern-scaled.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+padding-left: 30px;
+padding-right: 30px;
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 15px;
+font-weight: 400;
+transition: all linear .5s;
+position: relative;
+}
+.navbar-expand-lg .navbar-nav .nav-link::after{
+bottom: -5px;
+width: 100%;
+height: 5px;
+left: 0;
+background-color: rgb(221, 95, 86);
+content: '';
+position: absolute;
+transition-timing-function: ease-in-out;
+transform: scaleX(0);
+transition: all linear .5s;
+border-radius: 15px;
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover::after{
+  transform: scaleX(1);
+}
+.navbar-expand-lg .navbar-nav .nav-link:hover{
+color: rgb(221, 95, 86);
+
+}
+.navbar-expand-lg .navbar-nav .first{
+  padding-left: 0;
+}
+.navbar-expand-lg .navbar-nav .last{
+  padding-right: 0;
+}
+
+.down-part{
+  margin-top: 100px;
+  align-items: center;
+  display: flex;
+  gap: 150px;
+}
+.left-side img{
+  width: 500px;
+  width: 500px;
+}
+
+.right-side h3{
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 35px;
+font-weight: 600;
+line-height: 40.6px;
+color: rgb(100, 151, 147);
+}
+.right-side h1{
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 168px;
+font-weight: 700;
+line-height: 179.76px;
+color: rgb(221, 95, 86);
+}
+.right-side h5{
+  margin: 0 auto;
+  width: 100px;
+  height: 3px;
+  background-color: rgb(100,151,147);
+}
+.right-side p{
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 25.2px;
+color: rgb(69, 69, 69);
+width: 650px;
+
+text-align: center;
+}
+.but button{
+  margin-bottom: 20px;
+  margin-left: 15px;
+  padding-top: 15px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: rgb(51,110,106);
+  border: 1px solid rgb(51,110,106);
+  background: transparent;
+  transition: all ease .4s;
+}
+.but button a{
+  color: black;
+}
+.but button:hover{
+  background-color: rgb(51,110,106);
+  border: 1px solid rgb(51,110,106);
+}
+.but button:hover a{
+ color: white;
+}
+
+.right-side p{
+  padding-top: 15px;
+}
+
+.right-side h6{
+padding-top: 10px;
+margin-bottom: 30px;
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: 600;
+line-height: 18px;
+color: rgb(100, 151, 147);
+}
+
+.star{
+  margin-top: 45px;
+
+}
+.star i{
+  background-color: rgb(221,95,86);
+  width: 40px;
+  height: 40px;
+  padding-top: 15px;
+  color: white;
+  border-radius: 10px;
+}
+
+
+/* -------navber part  end------------ */
+
+
+/* ---------face part start----------- */
+
+
+
+
+.face-wrapper  .one{
+  
+  text-align: center;
+}
+.face-wrapper .one h4{
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 21.6px;
+color: rgb(51, 110, 106);
+}
+.face-wrapper .one p{
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 25.2px;
+color: rgb(69, 69, 69);
+margin: 0 auto;
+padding-bottom: 50px;
+padding-top: 25px;
+}
+.face-wrapper .one img{
+  width: 250px;
+  height: 250px;
+}
+
+.face-wrapper{
+  
+  border-radius: 5px;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 150px;
+  box-shadow: 1px 26px 43px 8px rgba(79,82,82,0.75);
+}
+
+.two{
+  background-color: rgb(222,240,238);
+}
+
+#face .face-wrapper .one h5{
+  margin: 0 auto;
+  width: 100px;
+  height: 3px;
+  background-color: rgb(100,151,147);
+}
+
+.text-part h3{
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 35px;
+font-weight: 600;
+line-height: 40.6px;
+color: rgb(221, 95, 86);
+
+}
+
+.text-part p{
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 25.2px;
+color: rgb(69, 69, 69);
+width: 720px;
+margin-top: 25px;
+margin-bottom: 50px;
+}
+
+.text-part button{
+  padding: 8px 15px;
+  border-radius: 5px;
+  background: transparent;
+  color: rgb(131, 155, 156);
+  border: 1px solid rgb(51,110,106);
+  transition: all ease .5s;
+  margin-bottom: 150px;
+}
+
+
+.text-part button:hover{
+ background-color: rgb(51,110,106);
+}
+.text-part button:hover{
+ color: white;
+}
+
+/* -------face part  end------------ */
+
+
+/* -----------assist part start--------- */
+#assist{
+  background: rgb(222,240,238);
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+ .assist-wrapper h6{
+  margin: 0 auto;
+  width: 100px;
+  height: 3px;
+  background-color: rgb(100,151,147);
+  margin-top: 40px;
+}
+.assist-wrapper h5{
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 35px;
+font-weight: 600;
+line-height: 40.6px;
+color: rgb(51, 110, 106);
+}
+
+ .assist-wrapper h2{
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 160px;
+font-weight: 700;
+line-height: 160px;
+color: rgb(221, 95, 86);
+padding-top: 100px;
+}
+
+ .assist-wrapper p{
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 25.2px;
+color: rgb(69, 69, 69);
+margin-top: 30px;
+}
+
+
+
+.english{
+  margin-top: 80px;
+}
+
+.united img{
+  width: 400px;
+  height: 400px;
+}
+
+.united h4{
+width: 380px;
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 30px;
+font-weight: 600;
+line-height: 40.6px;
+text-align: center;
+}
+
+.united p{
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 25.2px;
+color: rgb(208, 91, 84);
+text-align: center;
+}
+/* ------------assist part  end------------ */
+
+/* --------------over part start------------- */
+#over{
+  background: url('../image/orange-cta-background-scaled.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+ .over-wrapper{
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+ }
+
+ .over-wrapper h5{
+  margin: 0 auto;
+  width: 100px;
+  height: 4px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 40px;
+}
+ .over-wrapper h4{
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 35px;
+font-weight: 600;
+line-height: 40.6px;
+color: rgb(255, 255, 255);
+}
+
+.icon-two{
+  margin-top: 40px;
+}
+
+.icon-two i{
+  background-color: rgb(255, 255, 255);
+  width: 40px;
+  height: 40px;
+  padding-top: 10px;
+  color: rgb(208, 91, 84);
+  border-radius: 10px;
+  font-size: 20px;
+}
+.over-wrapper p{
+margin-top: 10px;
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: 600;
+line-height: 18px;
+color: rgb(255, 255, 255);
+}
+/* --------------over part end------------- */
+
+/* --------------listen part start------------- */
+
+#listen{
+  padding-top: 80px;
+  padding-bottom: 90px;
+}
+
+.listen-wrapper{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.listen-left h2{
+ font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 160px;
+font-weight: 700;
+line-height: 160px;
+color: rgb(221, 95, 86);}
+
+.listen-left h4{
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 35px;
+font-weight: 600;
+line-height: 35px;
+color: rgb(51, 110, 106);
+}
+
+ .listen-right h5{
+  width: 100px;
+  height: 4px;
+  background-color: rgb(51, 110, 106);
+  margin-top: 40px;
+}
+
+.listen-right p{
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 25.2px;
+color: rgb(69, 69, 69);
+width: 580px;
+}
+
+.online-left{
+  padding: 25px 25px 25px 25px;
+}
+.online{
+  border-radius: 5px;
+ border: 1px solid rgb(51, 110, 106);
+ width: 600px;
+ height: 600px;
+ margin-top: 80px;
+ transition: all linear .5s;
+} 
+.online:hover{
+ border: 1px solid rgb(51, 110, 106);
+ 
+ background-color: rgba(100, 151, 147, 0.329);
+} 
+.online-left h4{
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 33.6px;
+color: rgb(15, 14, 14);
+padding-top: 20px;
+transition: all ease .4s;
+}
+.online-left p{
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 15.99px;
+color: rgb(227, 120, 113);
+}
+.online-left h4:hover{
+  color:rgb(221, 95, 86);
+}
+.online-left img{
+ width: 550px;
+ height: 450px;
+}
+
+.laptop{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+.ooo button{
+  padding: 5px 15px;
+  margin-top: 25px;
+  text-align: center;
+  background-color: rgb(51,110,106);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+/* --------------listen part end------------- */
+
+
+/* --------------story part start------------- */
+
+#story{
+  background: url('../image/cheir.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+}
+
+.main-part{
+  display: flex;
+  gap: 50px;
+}
+
+.story-img-left img{
+  width: 550px;
+  height: 550px;
+}
+
+ .story-right h5{
+  width: 100px;
+  height: 4px;
+  background-color: rgb(51, 110, 106);
+  margin-top: 40px;
+}
+ .story-right p{
+  padding-top: 30px;
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 25.2px;
+color: rgb(69, 69, 69);
+width: 650px;
+}
+.cap-image img{
+  width: 250px;
+  height: 170px;
+  margin-left: -35px;
+}
+.glass button{
+  padding: 5px 20px;
+  margin-top: 25px;
+  background-color: rgb(51,110,106);
+  border: none;
+  color: white;
+  border-radius: 5px;
+}
+.glass button a{
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+color: rgb(255, 255, 255);
+
+}
+/* --------------story part end------------- */
+
+/* ----------------new part start------------ */
+#new{
+  background-color: rgb(222,240,238);
+  padding: 100px 100px;
+}
+
+.new-left p{
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 23.4px;
+color: rgb(69, 69, 69);
+width: 520px;
+margin-top: 40px;
+padding-bottom: 40px;
+}
+
+.new-left img{
+  width: 300px;
+}
+ .new-right{
+  display: flex;
+  gap: 50px;
+ }
+.small-imga img{
+  width:60px;
+  height:70px;
+  margin-top: 20px;
+}
+
+.new-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.new-middle h4{
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.2px;
+color: rgb(33, 41, 52);
+}
+.new-middle ul li{
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 13px;
+font-weight: 400;
+line-height: 16px;
+color: rgb(33, 41, 52);
+padding-top: 30px;
+transition: all .4s ease;
+}
+.new-middle ul li:hover{
+color:rgb(101, 188, 123);
+}
+
+.new-right h4{
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: 600;
+line-height: 19.2px;
+color: rgb(33, 41, 52);
+}
+.new-right p{
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 14px;
+font-weight: 400;
+line-height: 25.2px;
+color: rgb(33, 41, 52);
+width: 260px;
+transition: all ease .4s;
+}
+.new-right p:hover{
+  color: rgb(208, 91, 84);
+}
+.new-right i{
+  color: rgb(208, 91, 84);
+}
+
+.small h6{
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 16px;
+font-weight: 700;
+line-height: 25.2px;
+color: rgb(69, 69, 69);
+}
+/* ----------------new part end--------------- */
+
+/* -----------------footer part start--------------- */
+#footer{
+  background-color: rgb(51,110,106);
+  padding: 25px 0;
+}
+
+.footer-wrapper{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-ic i{
+  padding-left: 15px;
+  color: white;
+  width: 700;
+  font-size: 16px;
+}
+
+.footer-wrapper p a{
+  font-family: Montserrat, Arial, Helvetica, sans-serif;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+color: rgb(255, 255, 255);
+}
+
+
+/* ----------------footer part end------------ */
